@@ -16,6 +16,14 @@ p.small {
     font-size: 16px;
 }
 
+#contactEmailDisplay {
+  display:inline-block;
+}
+
+#contactEmail{
+  display:inline-block;
+}
+
 a,
 a:hover,
 a:focus,
