@@ -59,9 +59,9 @@
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
+                   <!-- <li class="page-scroll">
                         <a href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -180,7 +180,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <!-- <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -190,8 +190,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                     To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. 
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -230,9 +230,9 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> 
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="text-center">
@@ -255,8 +255,10 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Sebastián</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Contact Sebastián</h3>
+                        <p id="contactEmailDisplay">Email: </p>
+                        <a id="contactEmail" href="mailto:markethernandez@gmail.com">markethernandez@gmail.com</a>
+                        <p>Phone: 941-323-1215</p>
                     </div>
                 </div>
             </div>
@@ -295,7 +297,7 @@
                             <h2>MiCasa</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/micasa.png" class="img-responsive img-centered" alt="">
-                            <p>MiCasa is a short-term rental management server, operating out of Gainesville, FL. MiCasa is my biggest personal project to date as I serve as both the project manager and lead backend developer. My work on the site has been extensive and I have developed most of the server-side logic for emails, reservations, properties, and more. While I'm always learning how to solve the challenges we face as a start-up, I'm proud to see MiCasa have grown from the ground up. Feel free to checkout the <a href="http://www.micasamgmt.com">site!</a></p>
+                            <p>MiCasa is a short-term rental management service, operating out of Gainesville, FL. MiCasa is my biggest personal project to date as I serve as both the project manager and lead backend developer. My work on the site has been extensive and I have developed most of the server-side logic for emails, reservations, properties, and more. While I'm always learning how to solve the challenges we face as a start-up, I'm proud to see MiCasa have grown from the ground up. Feel free to checkout the <a href="http://www.micasamgmt.com">site!</a></p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.micasamgmt.com">MiCasa Management LLC</a>
@@ -331,18 +333,18 @@
                             <h2>Instagram Ads</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/instagram_logo.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>This project served as an introduction to web development and Node.JS/Express. Early on during the Summer of 2015, I was approached by Tyler Parker, co-founder of <a href='http://www.spinchill.com'>SpinChill</a>, to create a platform for advertising on Instagram. As such I used my limited knowledge to create a site which utilized Instagram's API to allow users to sign-in through Instagram, Node.JS/Express to implement the site's server-side logic, and <a href='http://jade-lang.com'>Jade</a> to build the site's front-end. Looking back, there were many aspects of the site's design that I could have improved upon but the experience proved to be exceedingly useful in my future endeavors. Instagram-ads served as the first iteration of the site which would eventually become <a href='http://toutloud.com'>toutloud.com</a>.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub link:
+                                    <strong><a href="https://github.com/prcbass/instagram-ads">Instagram-Ads</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="#">May - August 2015</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Language/Framework:
+                                    <strong><a href="https://nodejs.org/en/">Node.JS</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -365,21 +367,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Algorithms/Datastructures</h2>
+                            <h2>Data Structures</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/datastructures.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>I took COP 3530 (Data Structures and Algorithms) during the Fall 2015 semester. During the course of the semester I implemented a circular linked list, stack, sparse matrix, min-heap, and min-leftist tree. This project is a personal initiative to go back and re-do these assignments with an emphasis on industry standards. One such change includes using <a href="https://msdn.microsoft.com/en-us/library/hh279674.aspx">smart pointers</a> in an implementation of a linked list, instead of raw C++ pointers. This is one of my backup projects, which I work on between school and work.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub link:
+                                    <strong><a href="https://github.com/prcbass/Algs-Datastructs">Algs-Datastructs</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="#">December 2015 - Present</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Language:
+                                    <strong><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -405,18 +407,18 @@
                             <h2>This Site!</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/sebastianfb.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>When I first started working on personal projects and using the experiences I gained to apply for internships, I found it strange that paper resumes were so commonly used as a primary form of work experience summarization. In a field like Computer Science, where an individual's work is done almost exclusively done on a computer, it seemed better to show-case one's work through technological means as well. This site serves as my online resume and allows others to take a first-hand look at the code defines my work. My online portfolio is currently hosted as a <a href="https://pages.github.com/">GitHub page</a> and uses Bootstrap's <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelancer</a> theme for styling purposes. Feel free to contact me if you have any questions!</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub link:
+                                    <strong><a href="https://github.com/prcbass/prcbass.github.io">prcbass.github.io</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">Present</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Languages:
+                                    <strong><a href="http://startbootstrap.com">HTML/CSS</a>
                                     </strong>
                                 </li>
                             </ul>
